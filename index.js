@@ -61,7 +61,7 @@ function removeShebang(file) {
 function run(data) {
 
 	var noShebang = removeShebang(data);
-	var output    = path.join(process.cwd(), 'out');
+	var output    = '/tmp/out';
 	var gcc       = cp.spawn('gcc', ['-xc', '-', '-o', output, '-std=c99']);
 
 	gcc.stdin.write(noShebang, 'utf8');
