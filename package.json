@@ -1,0 +1,28 @@
+{
+  "name": "node-c-interpreter",
+  "version": "0.0.0",
+  "description": "A simple C interpreter written with Node.js",
+  "main": "bin/index.js",
+  "bin": {
+    "nodec": "bin/index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/simonjm/node-c-interpreter.git"
+  },
+  "keywords": [
+    "Node.js",
+    "C",
+    "interpreter"
+  ],
+  "author": "Joe Simon",
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "gitHead": "4302852cfcb9b3db6e1ecec87f422ea7ae7ef684",
+  "dependencies": {
+    "commander": "~1.1.1"
+  }
+}
