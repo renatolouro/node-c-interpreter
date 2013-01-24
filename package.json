@@ -1,6 +1,6 @@
 {
   "name": "node-c-interpreter",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "A simple C interpreter written with Node.js",
   "main": "index.js",
   "bin": {

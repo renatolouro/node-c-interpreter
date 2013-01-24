@@ -1,6 +1,22 @@
 ## Usage
 
+Add this to the top of your C source file
 
+```
+ #!/usr/bin/env nodec
+```
+
+Then make the file executable with
+
+```
+chmod u+x source.c
+```
+
+Then run the file
+
+```
+./source.c
+```
 
 ## License
 
