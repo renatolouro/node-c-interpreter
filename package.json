@@ -2,9 +2,9 @@
   "name": "node-c-interpreter",
   "version": "0.0.0",
   "description": "A simple C interpreter written with Node.js",
-  "main": "bin/index.js",
+  "main": "index.js",
   "bin": {
-    "nodec": "bin/index.js"
+    "nodec": "index.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
