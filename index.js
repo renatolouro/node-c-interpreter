@@ -39,18 +39,11 @@ fs.readFile(path.join(__dirname, 'package.json'), 'utf8', function(err, data) {
  * @return {String}
  */
 function removeShebang(file) {
-	var lines = file.split('\n');
-	if (lines[0].indexOf('#!') === 0) {
-		var newFile = '';
-		for (var i = 1; i < lines.length; i++) {
-			if (lines[i].length) {
-				newFile += lines[i] + '\n';
-			}
-		}
-		return newFile;
-	} else {
-		return file;
+	var newFile = file;
+	if (file.indexOf('#!') === 0) {
+		newFile = file.substr(file.indexOf('\n'));
 	}
+	return newFile;
 }
 
 /**
